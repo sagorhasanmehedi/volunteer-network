@@ -1,6 +1,6 @@
 # MedServices
 
-Live Website Link [Create React App](https://sign-in-84a6e.web.app/chart).
+Live Website Link [MedServices](https://sign-in-84a6e.web.app/chart).
 
 <li>This website for MedServices Hospital</li>
 <li>API form github</li>
