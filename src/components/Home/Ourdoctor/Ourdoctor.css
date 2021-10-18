@@ -1,0 +1,49 @@
+.our-doctor {
+  margin: 150px 0;
+}
+.our-doctor h3 {
+  line-height: 1;
+  margin-bottom: 20px;
+  font-size: 2.625rem;
+  color: #004861;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.25px;
+}
+.titel-section {
+  margin-bottom: 60px;
+  text-align: center;
+}
+.titel-section p {
+  color: #888;
+}
+.doctor-card h5 {
+  margin-bottom: 5px;
+  font-size: 1.1875rem;
+  color: #004861;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.25px;
+}
+.doctor-dec {
+  padding-top: 18px;
+  padding-bottom: 0;
+}
+.doctor-dec span {
+  display: block;
+  color: #00a3c8;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+}
+.doctor-dec p {
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-size: 0.95rem;
+  color: #666;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.w-100:hover {
+}
+.w-100 {
+}

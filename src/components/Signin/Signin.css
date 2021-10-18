@@ -1,0 +1,77 @@
+.signin-parent {
+  display: flex;
+  justify-content: center;
+  height: 90vh;
+}
+.main-form {
+  width: 500px;
+  height: 600px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  background-color: lightgray;
+}
+.secend-parent {
+  display: flex;
+  flex-direction: column;
+}
+.form-img img {
+  width: 180px;
+  aspect-ratio: auto 180 / 40;
+  height: 40px;
+}
+.form-img {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.form-img h3 {
+  margin-right: 40px;
+  color: #00a3c8;
+  font-weight: bold;
+}
+.form-input {
+  padding: 10px;
+  margin-bottom: 20px;
+  outline: none;
+  border-radius: 4px;
+  border: 1px solid lightgray;
+  width: 430px;
+}
+.form-button {
+  background-color: #00a3c8;
+  color: #fff !important;
+  line-height: 30px;
+  border: none;
+  padding: 6px 0;
+  border-radius: 4px;
+}
+.Or {
+  text-align: center;
+  margin: 10px 0;
+  font-size: 20px;
+  font-family: serif;
+}
+.form-span hr {
+  margin-top: 0;
+}
+.form-button-google {
+  background-color: tomato;
+  color: #fff !important;
+  line-height: 30px;
+  border: none;
+  padding: 6px 0;
+  border-radius: 4px;
+}
+.new-user {
+  text-align: center;
+  margin-top: 30px;
+  color: black;
+  text-decoration: none;
+}
+.new-user:hover {
+  text-decoration: underline;
+  color: #00a3c8;
+}

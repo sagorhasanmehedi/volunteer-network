@@ -1,0 +1,10 @@
+.servicesdetail-parent {
+  height: 92vh;
+  display: flex;
+  align-items: center;
+}
+.servicesdetail-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

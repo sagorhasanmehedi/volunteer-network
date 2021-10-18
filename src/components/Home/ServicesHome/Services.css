@@ -1,0 +1,17 @@
+.card-heading {
+  margin-top: 25px;
+}
+
+.services-button button {
+  background-color: #00a3c8;
+  color: #fff !important;
+  line-height: 30px;
+  border: none;
+  width: 150px;
+  padding: 6px 0;
+  border-radius: 4px;
+}
+.services-button {
+  text-align: center;
+  margin-top: 30px;
+}

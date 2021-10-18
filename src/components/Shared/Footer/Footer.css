@@ -1,0 +1,35 @@
+.footer-parent {
+  background: #222222;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  position: relative;
+}
+.footer-parent p {
+  color: #848484;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  margin: 0;
+  font-family: "Hind", sans-serif;
+}
+.footer-parent p:hover {
+  text-decoration: underline;
+}
+.footer-parent h3 {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.fas {
+  font-size: 25px;
+  color: #0392ce;
+}
+.far {
+  font-size: 25px;
+  color: #0392ce;
+}
+.footericon-addres {
+  display: flex;
+  gap: 10px;
+}

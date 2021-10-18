@@ -1,0 +1,46 @@
+.welcome-medservices {
+  font-size: 0.825rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  display: block;
+  letter-spacing: 0.5px;
+  margin-bottom: 28px;
+  color: #00a3c8;
+}
+.complete-medical {
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.25px;
+  font-size: 2.625rem;
+  color: #004861;
+  line-height: 1.2;
+  margin-bottom: 30px;
+}
+.welcome-p {
+  font-size: 1rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+  font-weight: 300;
+}
+.sign {
+  margin-bottom: 15px;
+  font-size: 1rem;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+  font-weight: 300;
+}
+.sign-img {
+  max-width: 100%;
+  height: auto;
+  width: 200px;
+  aspect-ratio: auto 200 / 34;
+}
+.solution-parent {
+  background-color: #f8f9fb;
+  padding: 80px 100px 0px 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
