@@ -7,7 +7,7 @@ import Solutions from "../Solutions/Solutions";
 const Homepage = () => {
   return (
     <div>
-      <Carouselscomponent />
+      {/* <Carouselscomponent /> */}
       <Solutions />
       <Ourdoctor />
       <ServicesHome />

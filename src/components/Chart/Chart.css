@@ -1,4 +1,22 @@
-.chart-parent h1 {
-  background-color: lawngreen;
-  text-align: center;
+.chart-parent {
+  background: #e7ebee;
+  /* background-color: #f8f9fb; */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.case-study {
+  margin-bottom: 100px;
+  line-height: 1;
+  font-size: 2.625rem;
+  color: #004861;
+  font-weight: 600;
+  letter-spacing: -0.25px;
+  font-family: "Barlow", sans-serif;
+}
+.case-study span {
+  font-weight: 900;
+  font-family: monospace;
 }

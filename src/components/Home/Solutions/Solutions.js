@@ -8,6 +8,7 @@ const Solutions = () => {
         <div className="solution row">
           <div className="col-lg-6">
             <img
+              className="solution-img"
               src={
                 "https://jthemes.net/themes/html/medservices/files/images/image-03.png"
               }

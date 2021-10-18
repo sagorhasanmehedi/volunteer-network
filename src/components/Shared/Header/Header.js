@@ -16,7 +16,7 @@ const Header = () => {
     history.push("/signup");
   };
   return (
-    <div className="header-parent">
+    <div className="header-parent ">
       <div className="nav-bar  container">
         <div className="nav-img">
           {" "}
@@ -34,13 +34,10 @@ const Header = () => {
           <NavLink to="/">
             <a href="u">Home</a>
           </NavLink>
-          <NavLink to="/about">
+          <NavLink className="navlink-hidentext" to="/about">
             <a href="u">About</a>
           </NavLink>
-          <NavLink to="/services">
-            <a href="u">Services</a>
-          </NavLink>
-          <NavLink to="/chart">
+          <NavLink className="navlink-hidentext" to="/chart">
             <a href="u">Chart</a>
           </NavLink>
           {user.email ? (

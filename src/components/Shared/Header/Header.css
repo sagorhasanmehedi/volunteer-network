@@ -4,6 +4,7 @@
   align-items: center;
 }
 .header-parent {
+  box-shadow: 0 2px 3px rgb(96 96 96 / 10%);
   height: 70px;
   align-items: center;
   display: flex;
@@ -35,4 +36,18 @@
   padding: 6px 0;
   border-radius: 4px;
 }
-/* font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; */
+
+@media only screen and (max-width: 600px) {
+  .nav-img img {
+    display: none;
+  }
+  .nav-text span {
+    display: none;
+  }
+  .nav-text a {
+    margin-right: 60px;
+  }
+  .navlink-hidentext {
+    display: none;
+  }
+}

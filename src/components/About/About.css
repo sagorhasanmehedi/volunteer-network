@@ -1,4 +1,50 @@
-.about-parent h1 {
-  text-align: center;
-  color: greenyellow;
+.about-parent {
+  background-color: #f8f9fb;
+}
+.full-card {
+  padding: 140px 0px 10px 180px;
+}
+.about-text-h5 {
+  font-size: 0.85rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 25px;
+  color: #00a3c8;
+  font-family: "Lato", sans-serif;
+}
+
+.about-text-h2 {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1.25;
+  text-transform: uppercase;
+  letter-spacing: -0.5px;
+  margin-bottom: 30px;
+  color: #004861;
+  font-family: "Lato", sans-serif;
+}
+.about-p p {
+  font-size: 1rem;
+  color: #333;
+  font-weight: 300;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+  .full-card {
+    padding: 0;
+  }
+  .w-85 {
+    width: 100%;
+  }
+  .about-text-h2 {
+    font-size: 3rem;
+  }
+  .about-parent {
+    padding-top: 40px;
+  }
+  .all-text-parent {
+    padding-left: 20px;
+  }
 }

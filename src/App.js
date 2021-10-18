@@ -12,6 +12,7 @@ import Footer from "./components/Shared/Footer/Footer";
 import AuthProvider from "./components/Context/AuthProvider";
 import ServicesDetails from "./components/ServicesDetails/ServicesDetails";
 import PrivateRoute from "./components/PrivateRoute/PrivateRoute";
+import Map from "./components/Map/Map";
 
 function App() {
   return (
@@ -28,9 +29,6 @@ function App() {
             </Route>
             <Route path="/about">
               <About />
-            </Route>
-            <Route path="/services">
-              <Services />
             </Route>
             <Route path="/chart">
               <Chart />

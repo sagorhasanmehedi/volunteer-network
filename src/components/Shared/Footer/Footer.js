@@ -6,7 +6,7 @@ const Footer = () => {
     <div className="footer-parent ">
       <div className="container">
         <div className="row">
-          <div className="col-lg-3">
+          <div className="col-lg-3 each-col">
             <h3>About Hospitals</h3>
             <p>
               The relentless service of Hospitals in the <br /> past 25 years
@@ -21,7 +21,7 @@ const Footer = () => {
               <a href="u">KNOW MORE</a>
             </div>
           </div>
-          <div className="col-lg-3">
+          <div className="col-lg-3 each-col">
             <h3>Usefull Links</h3>
             <p>About Us</p>
             <p>Awards</p>
@@ -31,7 +31,7 @@ const Footer = () => {
             <p>Special Offers</p>
             <p>FAQ’s</p>
           </div>
-          <div className="col-lg-3">
+          <div className="col-lg-3 each-col">
             <h3>Services</h3>
             <p> Services</p>
             <p>Healthy Foods</p>
@@ -40,7 +40,7 @@ const Footer = () => {
             <p>Certificates</p>
             <p>Qualifications</p>
           </div>
-          <div className="col-lg-3">
+          <div className="col-lg-3 each-col">
             <h3>Contact Details</h3>
             <div className="footericon-addres">
               <i class="fas fa-map-marker-alt"></i>

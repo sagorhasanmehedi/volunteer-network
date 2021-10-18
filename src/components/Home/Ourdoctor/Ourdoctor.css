@@ -43,7 +43,24 @@
   color: #666;
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-.w-100:hover {
+.doctor-img {
+  overflow: hidden;
+  transition: transform 1s;
 }
-.w-100 {
+.doctor-img:hover {
+  transform: scale(1.2);
+}
+.for-img-hover {
+  overflow: hidden;
+}
+@media only screen and (max-width: 600px) {
+  .doctor-dec h5 {
+    margin-top: 10px;
+  }
+  .doctor-dec p {
+    margin-bottom: 40px;
+  }
+  .our-doctor {
+    padding: 0 15px;
+  }
 }

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { useHistory } from "react-router";
 import UseAuth from "../../../Hook/UseAuth";
 import "./Services.css";
@@ -10,18 +10,21 @@ const ServicesHome = () => {
     history.push(`/servicesdetails/${id}`);
   };
   return (
-    <div className="container">
-      <div className="row g-3">
-        {Api.map((services) => (
-          <div key={services.id} className="card-parent col-lg-4 p-3">
-            <img className="w-100" src={services.img} alt="" />
-            <h4 className="card-heading">{services.services}</h4>
-            <h6>{services.shortDES}</h6>
-            <div className="services-button">
-              <button onClick={() => godetail(services.id)}>Detail</button>
+    <div className="services-home">
+      <div className="container">
+        <h3 className="services-heading">Our Departments</h3>
+        <div className="card-parent-grid ">
+          {Api.map((services) => (
+            <div key={services.id} className="card-parent ">
+              <img className="w-100 card-img" src={services.img} alt="" />
+              <h4 className="card-heading">{services.services}</h4>
+              <p>{services.shortDES}</p>
+              <div className="services-button">
+                <button onClick={() => godetail(services.id)}>Detail</button>
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </div>
   );

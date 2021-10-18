@@ -1,10 +1,9 @@
 import React from "react";
-import "./Services.css";
 
 const Services = () => {
   return (
-    <div className="services-parent">
-      <h1>this is services page</h1>
+    <div>
+      <h1>kothin jhamela</h1>
     </div>
   );
 };

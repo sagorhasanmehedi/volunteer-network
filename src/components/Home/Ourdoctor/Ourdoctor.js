@@ -15,13 +15,15 @@ const Ourdoctor = () => {
         </div>
         <div className="row">
           <div className="doctor-card col-lg-3">
-            <img
-              className="w-100"
-              src={
-                "https://www.gph.ae/cdn/images/500/dr-ismail-hassan.jpg.webp"
-              }
-              alt=""
-            />
+            <div className="for-img-hover">
+              <img
+                className="w-100 doctor-img"
+                src={
+                  "https://www.gph.ae/cdn/images/500/dr-ismail-hassan.jpg.webp"
+                }
+                alt=""
+              />
+            </div>
             <div className="doctor-dec">
               <h5>Jonathan Barnes D.M.</h5>
               <span>Chief Medical Officer</span>
@@ -32,13 +34,15 @@ const Ourdoctor = () => {
             </div>
           </div>
           <div className="doctor-card col-lg-3">
-            <img
-              className="w-100"
-              src={
-                "https://www.gph.ae/cdn/images/500/dr-noor-buchholz.jpg.webp"
-              }
-              alt=""
-            />
+            <div className="for-img-hover">
+              <img
+                className="w-100 doctor-img"
+                src={
+                  "https://www.gph.ae/cdn/images/500/dr-noor-buchholz.jpg.webp"
+                }
+                alt=""
+              />
+            </div>
             <div className="doctor-dec">
               <h5>Dr. Gary Cheng Yen Ching</h5>
               <span>Anesthesiologist</span>
@@ -49,13 +53,15 @@ const Ourdoctor = () => {
             </div>
           </div>
           <div className="doctor-card col-lg-3">
-            <img
-              className="w-100"
-              src={
-                "https://www.gph.ae/cdn/images/500/dr-ismail-al-khalidi.jpg.webp"
-              }
-              alt=""
-            />
+            <div className="for-img-hover">
+              <img
+                className="w-100 doctor-img"
+                src={
+                  "https://www.gph.ae/cdn/images/500/dr-ismail-al-khalidi.jpg.webp"
+                }
+                alt=""
+              />
+            </div>
             <div className="doctor-dec">
               <h5>DR. ISMAIL HASSAN</h5>
               <span>Head of Urology</span>
@@ -67,13 +73,15 @@ const Ourdoctor = () => {
             </div>
           </div>
           <div className="doctor-card col-lg-3">
-            <img
-              className="w-100"
-              src={
-                "https://www.gph.ae/cdn/images/500/doc_1630841291.jpg.jpg.webp"
-              }
-              alt=""
-            />
+            <div className="for-img-hover ">
+              <img
+                className="w-100 doctor-img"
+                src={
+                  "https://www.gph.ae/cdn/images/500/doc_1630841291.jpg.jpg.webp"
+                }
+                alt=""
+              />
+            </div>
             <div className="doctor-dec">
               <h5>DR. NOOR BUCHHOLZ</h5>
               <span>Consultant Urologist</span>
