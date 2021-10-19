@@ -9,15 +9,18 @@ const ServicesDetails = () => {
   const result = Api.filter((services) => services.id == id);
 
   return (
-    <div className="servicesdetail-parent">
-      <div className="container">
-        <div className="row">
-          <div className="servicesdetail-text col-lg-6">
-            <h2>{result[0]?.services}</h2>
-            <p>{result[0]?.des}</p>
+    <div className="servicesdetail-parent container">
+      <div className="main-card">
+        <div className="">
+          <div className="servicesdetail-text">
+            <h3>{result[0]?.services}</h3>
+            <h4>{result[0]?.shortDES.slice(0, 50)}</h4>
+            <div className="discription">
+              <p>{result[0]?.des}</p>
+            </div>
           </div>
-          <div className="col-lg-6">
-            <img className="w-100" src={result[0]?.img} alt="" />
+          <div className="img-div">
+            <img className="servicesdetail-img" src={result[0]?.img} alt="" />
           </div>
         </div>
       </div>

@@ -1,10 +1,61 @@
 .servicesdetail-parent {
-  height: 92vh;
-  display: flex;
-  align-items: center;
+  height: 100vh;
 }
-.servicesdetail-text {
+.servicesdetail-text h3 {
+  letter-spacing: -0.5px;
+  margin-bottom: 4px;
+  font-size: 3rem;
+  color: #00a3c8;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  text-align: center !important;
+}
+.servicesdetail-text h4 {
+  font-weight: 400;
+  margin-bottom: 25px;
+  font-size: 1.875rem;
+  color: #00a3c8;
+  letter-spacing: -0.25px;
+  text-align: center !important;
+}
+.servicesdetail-text p {
+  font-size: 1.25rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  text-align: center !important;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+  font-weight: 300;
+}
+.discription {
+  width: 700px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+.servicesdetail-img {
+  width: 60%;
+}
+.img-div {
   display: flex;
-  flex-direction: column;
   justify-content: center;
+}
+.main-card {
+  padding: 55px;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .discription {
+    width: 100%;
+  }
+  .servicesdetail-img {
+    width: 100%;
+  }
+  .main-card {
+    padding: 10px;
+    margin-top: 15px;
+  }
+  .servicesdetail-parent {
+    height: 130vh;
+  }
 }

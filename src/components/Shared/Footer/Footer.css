@@ -11,27 +11,45 @@
   line-height: 24px;
   margin: 0;
   font-family: "Hind", sans-serif;
+  transition: 0.3s;
+  margin-bottom: 3px;
 }
 .footer-parent p:hover {
-  text-decoration: underline;
+  color: rgb(192, 190, 190);
 }
 .footer-parent h3 {
   color: #ffffff;
   font-size: 22px;
   font-weight: 400;
   text-transform: capitalize;
+  margin-bottom: 17px;
 }
 .fas {
-  font-size: 25px;
+  font-size: 20px;
   color: #0392ce;
+  margin-bottom: 5px;
 }
 .far {
-  font-size: 25px;
+  font-size: 20px;
   color: #0392ce;
+  margin-bottom: 5px;
 }
 .footericon-addres {
   display: flex;
-  gap: 10px;
+  align-items: center;
+  margin-bottom: 8px;
+  gap: 15px;
+}
+.each-col {
+  display: flex;
+  justify-content: center;
+}
+.know-mor a {
+  text-decoration: none;
+  font-weight: 600;
+}
+.know-mor a:hover {
+  text-decoration: underline;
 }
 
 @media only screen and (max-width: 600px) {
@@ -43,5 +61,6 @@
   }
   .each-col {
     margin-bottom: 35px;
+    justify-content: left;
   }
 }

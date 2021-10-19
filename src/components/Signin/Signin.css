@@ -1,7 +1,6 @@
 .signin-parent {
-  display: flex;
-  justify-content: center;
-  height: 90vh;
+  background-size: cover;
+  background-position: center;
 }
 .main-form {
   width: 500px;
@@ -11,7 +10,13 @@
   align-items: center;
   justify-content: center;
   margin-top: 100px;
-  background-color: lightgray;
+  background-color: rgb(211, 205, 205);
+}
+.for-overlay {
+  background: rgba(0, 0, 0, 0.65);
+  display: flex;
+  justify-content: center;
+  height: 100vh;
 }
 .secend-parent {
   display: flex;
@@ -47,7 +52,12 @@
   border: none;
   padding: 6px 0;
   border-radius: 4px;
+  transition: 0.3s;
 }
+.form-button:hover {
+  background-color: #027f9b;
+}
+
 .Or {
   text-align: center;
   margin: 10px 0;
@@ -58,12 +68,17 @@
   margin-top: 0;
 }
 .form-button-google {
-  background-color: tomato;
+  background-color: rgb(101, 46, 138);
   color: #fff !important;
   line-height: 30px;
   border: none;
   padding: 6px 0;
   border-radius: 4px;
+  transition: 0.3s;
+}
+
+.form-button-google:hover {
+  background-color: rgb(114, 2, 243);
 }
 .new-user {
   text-align: center;
@@ -74,4 +89,14 @@
 .new-user:hover {
   text-decoration: underline;
   color: #00a3c8;
+}
+
+@media only screen and (max-width: 600px) {
+  .main-form {
+    width: 90%;
+  }
+
+  .form-input {
+    width: 100%;
+  }
 }

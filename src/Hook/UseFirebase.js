@@ -15,7 +15,7 @@ const UseFirebase = () => {
   const [user, setuser] = useState({});
   const [email, setemail] = useState("");
   const [password, setpassword] = useState("");
-  console.log(email, password);
+  const [error, seterror] = useState("");
 
   const auth = getAuth();
   console.log(user);
@@ -54,7 +54,7 @@ const UseFirebase = () => {
         setuser({});
       })
       .catch((error) => {
-        console.log(error.message);
+        seterror(error.message);
       });
   };
 
@@ -64,6 +64,8 @@ const UseFirebase = () => {
     setpassword,
     signout,
     setuser,
+    error,
+    seterror,
     googlesignin,
     createuseraccount,
     usersignin,

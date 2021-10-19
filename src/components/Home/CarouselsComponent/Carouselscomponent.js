@@ -1,49 +1,30 @@
 import React from "react";
-import { Carousel } from "react-bootstrap";
 import "./Carouselcomponent.css";
-import doctor1 from "../../../images/african-woman-biochemist-researcher-checking-manifestations-vaccine-working-modern-equipped-laboratory-multiethnic-doctors-examining-virus-evolution-using-high-tech-researching-diagnosis.jpg";
-import doctor2 from "../../../images/doctor-with-co-workers-analyzing-x-ray.jpg";
-import doctor3 from "../../../images/francisco-venancio-M4Xloxsg0Gw-unsplash.jpg";
+import img from "../../../images/nurse-measuring-patient-blood-pressure.jpg";
 
 const Carouselscomponent = () => {
   return (
-    <div>
-      <Carousel className="carousle-parent">
-        <Carousel.Item>
-          <img className="d-block" src={doctor2} alt="First slide" />
-          <Carousel.Caption>
-            <h1>
-              HIGHEST QUALITY <br /> MEDICAL TREATMENT
-            </h1>
-            <p>
-              Enjoy the convenience of health screening at StarMed, with all
-              screening and <br /> imaging tests done under one roof. We offer
-              an extensive range of <br />
-              health screening packages for every individual, taking into
-              account factors such as <br /> health concerns, age, gender and
-              risk factors.
-            </p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img className="d-block " src={doctor1} alt="Second slide" />
-
-          <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img className="d-block" src={doctor3} alt="Third slide" />
-
-          <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
-          </Carousel.Caption>
-        </Carousel.Item>
-      </Carousel>
+    <div className="big-image" style={{ backgroundImage: `url(${img})` }}>
+      <div className="overlay">
+        <h1>
+          Highest Quality <br /> Medical Treatment
+        </h1>
+        <p>
+          U.S. News & World Report has again recognized MedServices as the No. 1{" "}
+          <br />
+          hospital overall and top ranked in fourteen specialties. Complex care{" "}
+          <br />
+          often requires medical experts from more than one specialty. With{" "}
+          <br />
+          world-class experts working together across specialties to give you{" "}
+          <br />
+          the unparalleled care you deserve, MedServices is a destination for{" "}
+          <br />
+          all who need certainty, options and hope. MedServices care is covered{" "}
+          <br />
+          by most insurance plans. Scroll to learn more
+        </p>
+      </div>
     </div>
   );
 };

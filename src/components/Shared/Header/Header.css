@@ -21,11 +21,16 @@
   margin-right: 30px;
   font-size: 14.5px;
 }
-.nav-text span {
+.show-name {
   text-decoration: none;
-  color: rgb(197, 194, 194);
-  margin-right: 205px;
+  color: rgb(190, 186, 186);
+  margin-right: 100px;
   font-size: 14.5px;
+}
+.show-error {
+  margin-right: 100px;
+  font-size: 14.5px;
+  color: red;
 }
 .nav-button {
   background-color: #00a3c8;

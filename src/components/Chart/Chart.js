@@ -71,6 +71,7 @@ const Chart = () => {
               bottom: 20,
               left: 20,
             }}
+            className="chart-holder"
           >
             <CartesianGrid stroke="#f5f5f5" />
             <XAxis dataKey="name" scale="band" />

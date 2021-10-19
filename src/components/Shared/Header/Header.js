@@ -4,7 +4,7 @@ import UseAuth from "../../../Hook/UseAuth";
 import "./Header.css";
 
 const Header = () => {
-  const { user, signout } = UseAuth().Firebase;
+  const { user, signout, error } = UseAuth().Firebase;
   const history = useHistory();
 
   // sign in button
@@ -30,7 +30,8 @@ const Header = () => {
         </div>
 
         <div className="nav-text">
-          <span>{user.displayName}</span>
+          {error && <span className="show-error">{error}</span>}
+          <span className="show-name">{user.displayName}</span>
           <NavLink to="/">
             <a href="u">Home</a>
           </NavLink>

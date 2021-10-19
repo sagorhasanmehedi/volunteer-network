@@ -1,4 +1,28 @@
-.notfound-parent h1 {
-  color: blue;
-  text-align: center;
+.notfound-parent {
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+
+.notfound-parent button {
+  margin-top: 39%;
+  height: 55px;
+  width: 195px;
+  border: none;
+  background-color: tomato;
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  transition: 0.5s;
+}
+.notfound-parent button:hover {
+  background-color: orangered;
+}
+@media only screen and (max-width: 600px) {
+  .notfound-parent button {
+    margin-top: 495px;
+  }
 }
