@@ -4,6 +4,14 @@ import UseAuth from "../../../Hook/UseAuth";
 import "./Services.css";
 
 const ServicesHome = () => {
+  const [services, setservices] = useState([]);
+  console.log(services);
+  useEffect(() => {
+    fetch("Servicesdata.json")
+      .then((res) => res.json())
+      .then((data) => setservices(data));
+  }, []);
+
   const { Api } = UseAuth();
   const history = useHistory();
   const godetail = (id) => {

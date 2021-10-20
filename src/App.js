@@ -39,6 +39,9 @@ function App() {
             <Route path="/signup">
               <Signup />
             </Route>
+            <Route path="/map">
+              <Map />
+            </Route>
             <PrivateRoute exact path="/servicesdetails/:id">
               <ServicesDetails />
             </PrivateRoute>

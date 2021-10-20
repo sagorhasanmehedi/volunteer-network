@@ -1,10 +1,9 @@
 import React from "react";
 import "./Carouselcomponent.css";
-import img from "../../../images/nurse-measuring-patient-blood-pressure.jpg";
-
+import bloodP from "../../../images/blood-p.jpg";
 const Carouselscomponent = () => {
   return (
-    <div className="big-image" style={{ backgroundImage: `url(${img})` }}>
+    <div className="big-image" style={{ backgroundImage: `url(${bloodP})` }}>
       <div className="overlay">
         <h1>
           Highest Quality <br /> Medical Treatment

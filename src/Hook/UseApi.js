@@ -5,7 +5,7 @@ const UseApi = () => {
 
   useEffect(() => {
     fetch(
-      "https://raw.githubusercontent.com/sagorhasanmehedi/assignment-10-secend-API/gh-pages/Servicesdata.json"
+      "https://raw.githubusercontent.com/sagorhasanmehedi/assignment-10-api/gh-pages/Servicesdata.json"
     )
       .then((res) => res.json())
       .then((data) => setdata(data));

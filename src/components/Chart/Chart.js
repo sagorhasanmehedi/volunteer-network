@@ -12,6 +12,7 @@ import {
   Tooltip,
   Legend,
 } from "recharts";
+import { Helmet } from "react-helmet";
 
 const data = [
   {
@@ -55,6 +56,9 @@ const data = [
 const Chart = () => {
   return (
     <div className="chart-parent">
+      <Helmet>
+        <title>Chart</title>
+      </Helmet>
       <h3 className="case-study">
         {" "}
         Case Study Of Our Patient <span>2021</span>

@@ -3,8 +3,7 @@ import { useForm } from "react-hook-form";
 import { Link, useHistory, useLocation } from "react-router-dom";
 import "./Signup.css";
 import UseAuth from "../../Hook/UseAuth";
-import doctorimg from "../../images/doctor-with-co-workers-analyzing-x-ray.jpg";
-
+import background from "../../images/doctor-chaking.jpg";
 const Signup = () => {
   const { googlesignin, createuseraccount, setemail, setpassword } =
     UseAuth().Firebase;
@@ -55,7 +54,7 @@ const Signup = () => {
   return (
     <div
       className="signin-parent"
-      style={{ backgroundImage: `url(${doctorimg})` }}
+      style={{ backgroundImage: `url(${background})` }}
     >
       <div className="for-overlay">
         <div className="main-form">

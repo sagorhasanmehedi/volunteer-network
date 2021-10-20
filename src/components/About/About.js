@@ -1,9 +1,13 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import "./About.css";
 
 const About = () => {
   return (
     <div className="about-parent">
+      <Helmet>
+        <title>About</title>
+      </Helmet>
       <div className="full-card">
         <div className="row">
           <div className="col-lg-6 ">

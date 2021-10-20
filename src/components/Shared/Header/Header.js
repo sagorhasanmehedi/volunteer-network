@@ -41,6 +41,9 @@ const Header = () => {
           <NavLink className="navlink-hidentext" to="/chart">
             <a href="u">Chart</a>
           </NavLink>
+          <NavLink className="navlink-hidentext" to="/map">
+            <a href="u">map</a>
+          </NavLink>
           {user.email ? (
             <button onClick={signout} className="nav-button">
               Sign Out
